@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Divisions from './components/Divisions';
+import MobileApp from './components/MobileApp';
 import Team from './components/Team';
 import Cafe from './components/Cafe';
 import Products from './components/Products';
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <About />
       <Divisions />
+      <MobileApp />
       <Team />
       <Cafe />
       <Products />

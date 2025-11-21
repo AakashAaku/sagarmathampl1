@@ -103,10 +103,10 @@ export default function Hero() {
             <div className="hidden md:flex justify-center items-center">
               <div className="relative w-96 h-96">
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center shadow-2xl">
+                  <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center shadow-2xl" style={{ width: '144px', height: '144px' }}>
                     <div className="text-center">
                       <div className="text-green-700 font-bold text-2xl">Sagarmatha</div>
-                      <div className="text-xs text-gray-600 mt-1">Agriculture</div>
+                      <div className="text-xs text-green-600 mt-1">Agriculture</div>
                     </div>
                   </div>
                 </div>
@@ -149,7 +149,7 @@ export default function Hero() {
                     cy="50%"
                     r="45%"
                     fill="none"
-                    stroke="rgba(255,255,255,0.3)"
+                    stroke="rgba(34,197,94,0.5)"
                     strokeWidth="2"
                     strokeDasharray="5,5"
                   />

@@ -5,12 +5,13 @@ export const translations = {
       about: 'About',
       divisions: 'Divisions',
       cafe: 'Veg Smart Café',
+      mobileApp: 'Mobile App',
       products: 'Products',
       team: 'Team',
       contact: 'Contact'
     },
     hero: {
-      title: 'Creativity, Your Own Product',
+      title: 'Innovating Agriculture. Sustaining Quality.',
       subtitle: 'Innovation with Social Impact',
       description: '100% Pure Vegetarian & Organic Products from the Heart of Nepal',
       cta1: 'Download App',
@@ -75,29 +76,63 @@ export const translations = {
         description: 'Multi-vendor marketplace connecting farmers directly with wholesale and retail customers'
       }
     },
+    mobileApp: {
+      title: 'Mobile App',
+      description: 'Revolutionizing agricultural marketplace with our multi-vendor platform. Access organic products, connect with farmers, and support sustainable practices.',
+      features: {
+        marketplace: {
+          title: 'Multi-Vendor Marketplace',
+          description: 'Connect directly with farmers and vendors'
+        },
+        wholesale: {
+          title: 'Wholesale & Retail',
+          description: 'Flexible options for all buyers'
+        },
+        inventory: {
+          title: 'Real-time Inventory',
+          description: 'Fresh organic products always available'
+        },
+        farmer: {
+          title: 'Direct Farmer Access',
+          description: 'Support local agricultural communities'
+        },
+        verification: {
+          title: 'Organic Verification',
+          description: '100% certified pure products'
+        },
+        delivery: {
+          title: 'Easy Delivery',
+          description: 'Fast and reliable shipping options'
+        }
+      }
+    },
     team: {
       title: 'Our Leadership Team',
       subtitle: 'Dedicated Professionals Driving Agricultural Innovation',
       members: {
-        ceo: {
-          name: 'Ramesh Sharma',
-          title: 'Chief Executive Officer',
-          bio: 'Leading Sagarmatha\'s vision for sustainable agriculture with 15+ years of experience'
+        member1: {
+          name: 'Tilaxmi Bhandari',
+          title: 'Founder & CEO',
+          designation: 'Chief Executive Officer',
+          bio: 'Leading Sagarmatha\'s vision for sustainable agriculture with extensive experience in agricultural innovation'
         },
-        cto: {
-          name: 'Sita Gurung',
-          title: 'Chief Technology Officer',
-          bio: 'Pioneering digital solutions for Nepal\'s agricultural sector'
+        member2: {
+          name: 'Anusha Khatiwada Pokharel',
+          title: 'Founder & CEO',
+          designation: 'Chief Technology Officer',
+          bio: 'Pioneering digital solutions for Nepal\'s agricultural sector and driving technological innovation'
         },
-        coo: {
-          name: 'Bikash Thapa',
-          title: 'Chief Operations Officer',
-          bio: 'Ensuring excellence in supply chain and farmer partnerships'
+        member3: {
+          name: 'Sabina Pokharel',
+          title: 'Founder & CEO',
+          designation: 'Chief Operations Officer',
+          bio: 'Ensuring excellence in supply chain and farmer partnerships with strategic operational leadership'
         },
-        sustainability: {
-          name: 'Anjali Rai',
-          title: 'Sustainability Director',
-          bio: 'Champion of organic practices and environmental stewardship'
+        member4: {
+          name: 'Pragya Pokharel',
+          title: 'Founder & CEO',
+          designation: 'Sustainability Director',
+          bio: 'Champion of organic practices and environmental stewardship, leading sustainable initiatives'
         }
       }
     },
@@ -185,6 +220,7 @@ export const translations = {
       about: 'हाम्रो बारे',
       divisions: 'विभागहरू',
       cafe: 'भेज स्मार्ट क्याफे',
+      mobileApp: 'मोबाइल एप',
       products: 'उत्पादनहरू',
       team: 'टोली',
       contact: 'सम्पर्क'
@@ -255,29 +291,63 @@ export const translations = {
         description: 'किसानहरूलाई थोक र खुद्रा ग्राहकहरूसँग सीधै जोड्ने बहु-विक्रेता बजार'
       }
     },
+    mobileApp: {
+      title: 'मोबाइल एप',
+      description: 'हाम्रो बहु-विक्रेता प्लेटफर्मको साथ कृषि बजारमा क्रान्ति ल्याउँदै। जैविक उत्पादनहरू पहुँच गर्नुहोस्, किसानहरूसँग जडान गर्नुहोस्, र दिगो अभ्यासहरू समर्थन गर्नुहोस्।',
+      features: {
+        marketplace: {
+          title: 'बहु-विक्रेता बजार',
+          description: 'किसान र विक्रेताहरूसँग सीधै जडान गर्नुहोस्'
+        },
+        wholesale: {
+          title: 'थोक र खुद्रा',
+          description: 'सबै खरिदकर्ताहरूको लागि लचिलो विकल्पहरू'
+        },
+        inventory: {
+          title: 'वास्तविक समयको सूची',
+          description: 'ताजा जैविक उत्पादनहरू सधैं उपलब्ध'
+        },
+        farmer: {
+          title: 'प्रत्यक्ष किसान पहुँच',
+          description: 'स्थानीय कृषि समुदायहरूलाई समर्थन गर्नुहोस्'
+        },
+        verification: {
+          title: 'जैविक प्रमाणीकरण',
+          description: '१००% प्रमाणित शुद्ध उत्पादनहरू'
+        },
+        delivery: {
+          title: 'सजिलो डेलिभरी',
+          description: 'छिटो र विश्वसनीय ढुवानी विकल्पहरू'
+        }
+      }
+    },
     team: {
       title: 'हाम्रो नेतृत्व टोली',
       subtitle: 'कृषि नवीनता चलाउने समर्पित पेशेवरहरू',
       members: {
-        ceo: {
-          name: 'रमेश शर्मा',
-          title: 'प्रमुख कार्यकारी अधिकृत',
-          bio: '१५+ वर्षको अनुभवसँग दिगो कृषिको लागि सगरमाथाको दृष्टिकोण नेतृत्व गर्दै'
+        member1: {
+          name: 'तिलक्ष्मी भण्डारी',
+          title: 'संस्थापक र प्रमुख कार्यकारी अधिकृत',
+          designation: 'प्रमुख कार्यकारी अधिकृत',
+          bio: 'कृषि नवीनतामा व्यापक अनुभवको साथ दिगो कृषिको लागि सगरमाथाको दृष्टिकोण नेतृत्व गर्दै'
         },
-        cto: {
-          name: 'सीता गुरुङ',
-          title: 'प्रमुख प्रविधि अधिकृत',
-          bio: 'नेपालको कृषि क्षेत्रको लागि डिजिटल समाधानहरूमा अग्रणी'
+        member2: {
+          name: 'अनुषा खतिवडा पोखरेल',
+          title: 'संस्थापक र प्रमुख कार्यकारी अधिकृत',
+          designation: 'प्रमुख प्रविधि अधिकृत',
+          bio: 'नेपालको कृषि क्षेत्रको लागि डिजिटल समाधानहरूमा अग्रणी र प्रविधिको नवीनतालाई चलाउँदै'
         },
-        coo: {
-          name: 'विकास थापा',
-          title: 'प्रमुख सञ्चालन अधिकृत',
-          bio: 'आपूर्ति श्रृंखला र किसान साझेदारीमा उत्कृष्टता सुनिश्चित गर्दै'
+        member3: {
+          name: 'सबिना पोखरेल',
+          title: 'संस्थापक र प्रमुख कार्यकारी अधिकृत',
+          designation: 'प्रमुख सञ्चालन अधिकृत',
+          bio: 'रणनीतिक सञ्चालन नेतृत्वको साथ आपूर्ति श्रृंखला र किसान साझेदारीमा उत्कृष्टता सुनिश्चित गर्दै'
         },
-        sustainability: {
-          name: 'अञ्जली राई',
-          title: 'दिगोपन निर्देशक',
-          bio: 'जैविक अभ्यास र पर्यावरणीय संरक्षणको च्याम्पियन'
+        member4: {
+          name: 'प्रज्ञा पोखरेल',
+          title: 'संस्थापक र प्रमुख कार्यकारी अधिकृत',
+          designation: 'दिगोपन निर्देशक',
+          bio: 'जैविक अभ्यास र पर्यावरणीय संरक्षणको च्याम्पियन, दिगो पहलहरू नेतृत्व गर्दै'
         }
       }
     },

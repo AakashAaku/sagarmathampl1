@@ -23,10 +23,15 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-              <span className="text-green-700 font-bold text-xl">S</span>
+            <div className="w-10 h-10 rounded-full flex items-center justify-center">
+            <img
+              src="/cpl.png"
+              alt="Organic vegetables"
+              className="w-full h-auto rounded-xl shadow-lg"
+            />
             </div>
             <div>
+          
               <h1 className="text-xl font-bold">Sagarmatha</h1>
               <p className="text-xs text-green-100">Multipurpose Pvt. Ltd.</p>
             </div>
@@ -44,6 +49,9 @@ export default function Header() {
             </button>
             <button onClick={() => scrollToSection('cafe')} className="hover:text-green-200 transition-colors">
               {t.nav.cafe}
+            </button>
+            <button onClick={() => scrollToSection('mobile-app')} className="hover:text-green-200 transition-colors">
+              {t.nav.mobileApp}
             </button>
             <button onClick={() => scrollToSection('products')} className="hover:text-green-200 transition-colors">
               {t.nav.products}
@@ -93,6 +101,9 @@ export default function Header() {
             </button>
             <button onClick={() => scrollToSection('cafe')} className="block hover:text-green-200 transition-colors">
               {t.nav.cafe}
+            </button>
+            <button onClick={() => scrollToSection('mobile-app')} className="block hover:text-green-200 transition-colors">
+              {t.nav.mobileApp}
             </button>
             <button onClick={() => scrollToSection('products')} className="block hover:text-green-200 transition-colors">
               {t.nav.products}

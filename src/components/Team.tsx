@@ -1,4 +1,3 @@
-import { User } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Team() {
@@ -6,28 +5,32 @@ export default function Team() {
 
   const team = [
     {
-      name: t.team.members.ceo.name,
-      title: t.team.members.ceo.title,
-      bio: t.team.members.ceo.bio,
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400'
+      name: t.team.members.member1.name,
+      title: t.team.members.member1.title,
+      designation: t.team.members.member1.designation,
+      bio: t.team.members.member1.bio,
+      image: '/tilaxmi1.jpg'
     },
     {
-      name: t.team.members.cto.name,
-      title: t.team.members.cto.title,
-      bio: t.team.members.cto.bio,
-      image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400'
+      name: t.team.members.member2.name,
+      title: t.team.members.member2.title,
+      designation: t.team.members.member2.designation,
+      bio: t.team.members.member2.bio,
+      image: '/anusha1.jpg'
     },
     {
-      name: t.team.members.coo.name,
-      title: t.team.members.coo.title,
-      bio: t.team.members.coo.bio,
-      image: 'https://images.pexels.com/photos/3778876/pexels-photo-3778876.jpeg?auto=compress&cs=tinysrgb&w=400'
+      name: t.team.members.member3.name,
+      title: t.team.members.member3.title,
+      designation: t.team.members.member3.designation,
+      bio: t.team.members.member3.bio,
+      image: '/sabina.jpg'
     },
     {
-      name: t.team.members.sustainability.name,
-      title: t.team.members.sustainability.title,
-      bio: t.team.members.sustainability.bio,
-      image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=400'
+      name: t.team.members.member4.name,
+      title: t.team.members.member4.title,
+      designation: t.team.members.member4.designation,
+      bio: t.team.members.member4.bio,
+      image: '/pragya1.jpg'
     }
   ];
 
@@ -61,8 +64,11 @@ export default function Team() {
                 <h3 className="text-xl font-bold text-gray-900 mb-1">
                   {member.name}
                 </h3>
-                <p className="text-green-600 font-semibold mb-3 text-sm">
+                <p className="text-green-600 font-semibold mb-1 text-sm">
                   {member.title}
+                </p>
+                <p className="text-gray-500 font-medium mb-3 text-xs">
+                  {member.designation}
                 </p>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   {member.bio}
