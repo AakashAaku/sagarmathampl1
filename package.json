@@ -8,7 +8,7 @@
     "dev": "next dev",
     "lint": "eslint .",
     "start": "next start",
-    "postinstall": "pnpm rebuild lightningcss @tailwindcss/oxide @tailwindcss/node || true"
+    "postinstall": "node -e \"try { require('child_process').execSync('pnpm rebuild lightningcss @tailwindcss/oxide @tailwindcss/node', { stdio: 'inherit' }) } catch (e) {}\""
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -48,7 +48,7 @@
     "embla-carousel-react": "8.5.1",
     "input-otp": "1.4.1",
     "lucide-react": "^0.454.0",
-    "next": "^16.0.3",
+    "next": "^16.0.7",
     "next-themes": "^0.4.6",
     "react": "19.2.0",
     "react-day-picker": "9.8.0",
