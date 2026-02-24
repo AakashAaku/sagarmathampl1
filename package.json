@@ -8,7 +8,7 @@
     "dev": "next dev",
     "lint": "eslint .",
     "start": "next start",
-    "postinstall": "pnpm rebuild lightningcss || true"
+    "postinstall": "pnpm rebuild lightningcss @tailwindcss/oxide @tailwindcss/node || true"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -63,7 +63,9 @@
     "zod": "3.25.76"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.9",
+    "@tailwindcss/node": "^4.2.1",
+    "@tailwindcss/oxide": "^4.2.1",
+    "@tailwindcss/postcss": "^4.2.1",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
